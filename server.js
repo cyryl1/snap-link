@@ -88,7 +88,7 @@ app.post("/shorten", async (req, res) => {
     originalUrl,
     qrCode,       
     createdAt: urlDatabase[code].createdAt,
-    note: "⚠️ This is a one-shot link. It self-destructs after the first click.",
+    note: "This is a one-shot link. It self-destructs after the first click.",
   });
 });
 
