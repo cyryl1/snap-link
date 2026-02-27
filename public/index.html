@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnapLink — One-Shot URL Shortener</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="wordmark">Snap<span>Link</span></div>
+      <p class="tagline">One-shot · Self-destructing · Secure</p>
+    </header>
+
+    <div class="card">
+      <p class="label">Destination URL</p>
+      <div class="input-row">
+        <input
+          type="text"
+          id="originalUrl"
+          placeholder="https://your-long-url.com/goes/here"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button class="btn-generate" id="generateBtn" type="button">Generate</button>
+      </div>
+      <div id="result"></div>
+    </div>
+
+    <footer>Link self-destructs after first click &nbsp;·&nbsp; SnapLink &copy; 2025</footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
