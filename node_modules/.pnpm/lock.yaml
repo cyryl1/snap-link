@@ -11,6 +11,9 @@ importers:
       body-parser:
         specifier: ^2.2.2
         version: 2.2.2
+      debug:
+        specifier: ^4.4.3
+        version: 4.4.3(supports-color@5.5.0)
       express:
         specifier: ^5.2.1
         version: 5.2.1

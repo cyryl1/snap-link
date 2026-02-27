@@ -13,6 +13,7 @@
   "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "body-parser": "^2.2.2",
+    "debug": "^4.4.3",
     "express": "^5.2.1",
     "finalhandler": "^2.1.1",
     "merge-descriptors": "^2.0.0",
