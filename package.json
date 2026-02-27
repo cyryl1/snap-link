@@ -14,6 +14,7 @@
   "dependencies": {
     "body-parser": "^2.2.2",
     "express": "^5.2.1",
+    "finalhandler": "^2.1.1",
     "merge-descriptors": "^2.0.0",
     "qrcode": "^1.5.4"
   },

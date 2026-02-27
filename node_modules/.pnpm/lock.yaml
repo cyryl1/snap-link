@@ -14,6 +14,9 @@ importers:
       express:
         specifier: ^5.2.1
         version: 5.2.1
+      finalhandler:
+        specifier: ^2.1.1
+        version: 2.1.1
       merge-descriptors:
         specifier: ^2.0.0
         version: 2.0.0
